@@ -1,0 +1,32 @@
+ls -p
+ls -au
+
+cat -ns shell.c
+cat ls.c
+
+history
+history -d 1
+history
+history -c
+history
+
+date
+date -r shell.c
+date -u
+
+mkdir a
+mkdir -p a/b
+
+cd a
+mkdir -p b/c
+cd ..
+
+rm -d a
+rm -r a
+
+pwd
+echo "sdaf\nasdf"
+echo -e "sadf\nsadf
+asdf"
+
+exit
